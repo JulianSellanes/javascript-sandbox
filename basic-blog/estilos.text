@@ -1,0 +1,31 @@
+Textos:
+
+font-weight: 900/bold; => Hace más negrita, o fina, la letra
+font-size: 20px; => Cambia el tamaño
+font-family: sans-serif; => Cambia la font
+text-align: center; => Alinea el texto
+
+Bordes:
+
+border-width: 1px; => Hace más grueso, o fino, el borde
+border-style: solid; => Cambia el estilo
+border-color: black; => Cambia el color
+
+Background:
+
+background-color: green; => Cambia el color
+
+Div:
+
+margin: auto; => Cambia el margen del panel/la separación del panel con los bordes de la pagina
+1 valor => se aplica a los 4 lados
+2 valores => arriba/abajo , izq/der
+3 valores => arriba , izq/der , abajo
+4 valores => arriba , der , abajo , izq
+padding: auto; => Cambia el relleno del panel/la separación entre los textos con los bordes del panel
+display: block/grid; => Muestra como se comportará el panel
+float: right; => Los elementos internos vuelan/se separan
+
+Listas:
+
+list-style: none; => Quita los puntos de la lista
