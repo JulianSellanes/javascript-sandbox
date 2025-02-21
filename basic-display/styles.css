@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+.block {
+    background-color: lightblue;
+
+    display: block;
+    padding: 30px;
+    margin: 10px 0;
+    /* Takes up the full width available */
+}
+
+.block-width {
+    background-color: lightblue;
+
+    display: block;
+    padding: 30px;
+    width: 400px;
+    margin: 10px 0;
+}
+
+.inline {
+    background-color: lightgreen;
+
+    display: inline;
+    width: 100px; /* No effect */
+    margin: 10px 0; /* No effect */
+}
+
+.inline-block {
+    background-color: lightcoral;
+
+    display: inline-block;
+    width: 200px;
+}

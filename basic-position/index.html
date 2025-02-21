@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div class="static">This div acts normal because its STATIC</div>
+        <div class="sticky">This div is STICKY, empieza relativo, pero cuando pasa el scroll por el, "se pega" y continua bajando con el (Se concentra en top debido a top: 0)</div>
+        <div class="relative">This div is moved 20px down RELATIVE to where it should be (thats why the empty space after Sticky)</div>
+
+        <div class="relative2">
+            This div is RELATIVE, 300px from the top, 100px from the left, but has an absolute child
+
+            <div class="absolute2">This div is ABSOLUTE to its parent (will follow it always in the bottom-right)</div>
+        </div>
+
+        <div class="absolute">This div is ABSOLUTE, it doesnt have a relative parent, so it follows the screen</div>
+        <div class="fixed">This div will always be at the right because its FIXED to it (even when scrolling)</div>
+
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <div class="sticky2">This div is STICKY, empieza relativo, pero cuando pasa el scroll por el, "se pega" y continua subiendo con el (Se concentra en bottom debido a bottom: 0)</div>
+        <p>Test</p>
+        <p>Test</p>
+        <p id="show-p">This text marks the "official" end of the page, but it keeps scrolling due to the absolute div</p>
+    </body>
+</html>

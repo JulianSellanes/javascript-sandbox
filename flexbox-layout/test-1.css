@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.child {
+    background-color: red;
+
+    padding: 30px;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.parent {
+    background-color: blue;
+    margin: 10px;
+}
+
+.parent-h200 {
+    height: 200px;
+}
+
+.parent-h300 {
+    height: 300px;
+}
+
+.parent-h400 {
+    height: 400px;
+}
+
+.parent-h600 {
+    height: 600px;
+}
+
+.parent-h800 {
+    height: 800px;
+}
+
+.parent-h1000 {
+    height: 1000px;
+}
+
+#parent-row-nowrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#parent-row-wrap {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#parent-column-nowrap {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#parent-column-wrap {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#parent-row-jc-space-between {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+#parent-row-jc-space-around {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+#parent-row-jc-space-evenly {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+#parent-row-jc-center {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+#parent-column-jc-space-between {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+#parent-row-ai-center {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+#parent-column-ai-center {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#parent-row-wrap-jc-center {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#parent-row-wrap-ac-center {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+}
+
+#child-grow {
+    flex-grow: 1;
+}
+
+#child-shrink {
+    flex-shrink: 0;
+}
+
+#child-basis {
+    flex-basis: 30%;
+}

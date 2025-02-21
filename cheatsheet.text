@@ -1,0 +1,42 @@
+Div:
+
+===margin===
+===border===
+===padding===
+===content===
+
+margin => Cambia el margen del div/la separación del div con los bordes de la pagina
+1 valor => se aplica a los 4 lados
+2 valores => arriba/abajo , izq/der
+3 valores => arriba , izq/der , abajo
+4 valores => arriba , der , abajo , izq
+border => Cambia el borde del div que se encuentra entre el padding y el margin
+padding => Cambia el relleno del content/la separación entre el content con los bordes
+display => Muestra como se comportará el div
+float => Los elementos internos vuelan/se separan
+
+
+Textos:
+
+font-weight: 900/bold; => Hace más negrita, o fina, la letra
+font-size: 20px; => Cambia el tamaño
+font-family: sans-serif; => Cambia la font
+text-align: center; => Alinea el texto
+
+
+Bordes:
+
+border-width: 1px; => Hace más grueso, o fino, el borde
+border-style: solid; => Cambia el estilo
+border-color: black; => Cambia el color
+border: border-width + border-style + border-color
+
+
+Background:
+
+background-color: green; => Cambia el color
+
+
+Listas:
+
+list-style: none; => Quita los puntos de la lista

@@ -1,0 +1,49 @@
+Cheatsheet: https://yoksel.github.io/flex-cheatsheet/
+
+
+display: flex
+
+
+
+flex-direction: row  |  column  |  ...
+//El orden en que se alinean los items
+
+flex-wrap: nowrap  |  wrap  |  wrap-reverse
+//Se vuelve multilinea cuando no hay espacio
+
+flex-flow: flex-direction + flex-wrap
+
+(for childs) order: -1  |  0  |  1  ...
+//Fuerza a cambiar la jerarquia de los items
+
+
+
+justify-content: flex-start  |  flex-end  |  ...
+//Alinea los items en el main axis
+//Si parent es row: los alinea en hor
+//Si parent es column: los linea en ver
+
+align-items: stretch  |  flex-start |  ...
+//Apreta los items perpendicular/opuesto al main axis
+//Si parent es row: los apreta en ver
+//Si parent es column: los apreta en hor
+
+(for childs) align-self: auto  |  ...
+//Same as align-items but overrides the parent's align-items
+
+align-content: stretch  |  flex-start |  center  |  ...
+//Solo aplica a multilinea (wrap)
+//Es como justify-content pero responde mejor a multilinea
+
+
+
+(for childs) flex-grow: 0  |  1
+//Estira el item para ocupar todo el espacio
+
+(for childs) flex-shrink: 1  |  0
+//No entendi que hace
+
+(for childs) flex-basis: auto  |  ...
+//Es como width pero flexible
+
+(for childs) flex: flex-grow + flex-shrink + flex-basis

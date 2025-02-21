@@ -1,0 +1,29 @@
+position: static;
+//Default positioning
+//Elements follow the normal document flow
+
+position: relative;
+//The element stays in the normal flow, but moves relative to where it would normally be
+//Other elements do not move to fill its space
+//Sigue el flow normal pero se muestra un poco corrido segun lo hayas especificado
+
+position: absolute;
+//Removed from normal document flow
+//Moves relative to the nearest positioned ancestor (parent)
+//If no positioned ancestor is found, it moves relative to the <html> (screen)
+//Se mueve relativo al parent, si no hay parent sigue la screen
+
+position: fixed;
+//Removed from normal document flow
+//Moves relative to the viewport (screen)
+//Does not move when scrolling
+
+position: sticky;
+//Starts relative, but becomes fixed when reaching a scroll position
+//Requires top, left, right, or bottom to work
+//Empieza relativo, luego se mueve en base al scroll position
+
+z-index: 1;
+//Controls which element appears on top
+//Works with absolute, fixed, and sticky
+//El z de unity, o como las layers

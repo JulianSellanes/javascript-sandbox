@@ -1,0 +1,29 @@
+(for childs) box-sizing: content-box;
+//The width/height only applies to the content
+//Padding and border add to the total size
+
+Total width = content + padding + border
+
+(for childs) box-sizing: border-box;
+//The width includes padding and border
+
+Total width = Remains equal to width
+
+
+
+Smart approach
+
+//Esta linea hace que todo sea border-box
+html {
+    box-sizing: border-box;
+}
+
+//Esta linea hace que todos los childs hereden la propiedad box-sizing del parent
+* {
+    box-sizing: inherit;
+}
+
+//Esta linea es por si queres que un parent en especifico sea content-box
+.content-box {
+    box-sizing: content-box;
+}
