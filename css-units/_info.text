@@ -1,0 +1,40 @@
+Absolute Units (Fixed Size):
+px
+cm
+
+
+Relative Units (Scalable & Responsive):
+em => Relative to parent font size
+rem => Relative to root (<html>) font size
+
+
+Viewport-Based Units:
+vw => % of viewport width
+vh => % of viewport height
+vmin => % of the smaller side
+vmax => % of the larger side
+//vh/vw for fullscreen layouts
+//vmin/vmax for dynamic scaling across devices
+
+
+Container-Relative Units:
+% => is relative to the parent element
+
+
+
+Smart approach
+
+* {
+    font-size: 62.5%;
+}
+
+//Change px to rem
+10px => 1.0rem
+
+.p-px {
+    font-size: 42px;
+}
+
+.p-rem {
+    font-size: 4.2rem;
+}
