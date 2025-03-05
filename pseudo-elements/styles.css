@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+html {
+    box-sizing: inherit;
+}
+
+p, li {
+    font-size: 3.0rem;
+}
+
+.p1::before {
+    content: "BEFORE ";
+}
+
+.p2::after {
+    content: " AFTER";
+}
+
+.p3::first-line {
+    color: red;
+}
+
+.p4::first-letter {
+    color: red;
+}
+
+.p5::selection {
+    color: red;
+    background-color: yellow;
+}
+
+ul {
+    padding: 2.5rem;
+}
+
+li::marker {
+    color: red;
+}

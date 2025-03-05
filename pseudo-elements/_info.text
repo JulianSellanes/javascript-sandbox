@@ -1,0 +1,21 @@
+//Used to add extra content or apply styles to parts of an element
+//Always require content: "" (even if empty)
+
+::before
+//Inserts content before an element’s actual content
+
+::after
+//Inserts content after an element’s actual content
+
+::first-line
+//Used to add a special style to the first line of a text
+
+::first-letter
+//Used to add a special style to the first letter of a text
+//Can only be applied to block-level elements
+
+::selection
+//Matches the portion of an element that is selected by a user
+
+::marker
+//Selects the markers of list items
