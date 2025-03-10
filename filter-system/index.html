@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div class="top">
+            <label><input type="checkbox" value="fruit" onchange="filterItems()"><span>Fruit</span></label>
+            <label><input type="checkbox" value="meat" onchange="filterItems()"><span>Meat</span></label>
+            <label><input type="checkbox" value="dairy" onchange="filterItems()"><span>Dairy</span></label>
+            <label><input type="checkbox" value="vegetable" onchange="filterItems()"><span>Vegetable</span></label>
+            <button onclick="clearFilters()">Clear</button>
+        </div>
+
+        <div class="box">
+            <div class="item" data-category="fruit">Apple</div>
+            <div class="item" data-category="meat">Beef</div>
+            <div class="item" data-category="meat">Chicken</div>
+            <div class="item" data-category="dairy">Milk</div>
+            <div class="item" data-category="vegetable">Carrot</div>
+            <div class="item" data-category="fruit">Banana</div>
+            <div class="item" data-category="vegetable">Brocoli</div>
+            <div class="item" data-category="dairy">Cheese</div>
+        </div>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
