@@ -24,17 +24,19 @@ Container-Relative Units:
 
 Smart approach
 
-* {
+html {
     font-size: 62.5%;
 }
+
+
 
 //Change px to rem
 10px => 1.0rem
 
-.p-px {
+.p - px {
     font-size: 42px;
 }
 
-.p-rem {
+.p - rem {
     font-size: 4.2rem;
 }
