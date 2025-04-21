@@ -1,0 +1,22 @@
+Cheatsheet: https://yoksel.github.io/grid-cheatsheet/
+
+
+display: grid
+
+
+grid-template-columns: 100px 200px 200px;
+grid-template-rows: 200px 100px;
+//Size de las columnas y las rows
+
+grid-template-columns: 1fr 2fr 1fr;
+//Grid flexible
+
+auto-fit
+//Ajustar size de columnas en base al espacio sobrante
+
+
+(for childs) grid-column: 1 / 3;
+//El child se extiende de la columna 1 a 3
+
+(for childs) grid-row: 2;
+//El child se extiende en la row 2
